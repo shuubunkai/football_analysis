@@ -1,0 +1,12 @@
+# Ignore virtual environment and site-packages
+.venv/
+
+# Ignore model weights
+*.pt
+
+# Ignore large video files
+*.avi
+
+# Ignore DLLs and lib files
+*.dll
+*.lib
