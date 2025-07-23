@@ -10,3 +10,6 @@
 # Ignore DLLs and lib files
 *.dll
 *.lib
+output_videos/output_video.avi
+runs/detect/predict/08fd33_4.avi
+runs/detect/predict2/08fd33_4.avi
