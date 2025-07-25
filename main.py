@@ -24,10 +24,10 @@ def main():
     
          
 
-    # Initialize Tracker
+    """ initate tracking """ 
     tracker = Tracker('models/best.pt')
 
-    # Check if tracking data already exists
+   """ if stub|\ tracking already exists """
     if os.path.exists(stub_path):
         print("Loading tracking data from stub...")
         with open(stub_path, 'rb') as f:
